@@ -5,6 +5,12 @@ GIT
   specs:
     api-auth (1.0.3)
 
+PATH
+  remote: engines/user_service
+  specs:
+    user_service (0.0.1)
+      rails (~> 4.1.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -128,3 +134,4 @@ DEPENDENCIES
   rspec-rails (= 3.0.0.beta2)
   sdoc (~> 0.4.0)
   spring
+  user_service!
